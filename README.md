@@ -1,6 +1,6 @@
 # Gerador de Times
 
-**Descrição:** O Gerador de Times é uma aplicação simples que permite criar equipes aleatórias para jogos. Basta informar os nomes dos jogadores e o número desejado de equipes, e o sistema se encarregará de distribuir os jogadores de forma aleatória entre os times. Ideal para peladas, torneios ou qualquer atividade que exija divisão em grupos.
+**Descrição:** O Gerador de Times é uma aplicação em JavaScript simples que permite criar equipes aleatórias para jogos. Basta informar os nomes dos jogadores e o número desejado de equipes, e o sistema se encarregará de distribuir os jogadores de forma aleatória entre os times. Ideal para peladas, torneios ou qualquer atividade que exija divisão em grupos.
 
 ## Funcionalidades
 - Entrada de nomes dos jogadores por linha.
