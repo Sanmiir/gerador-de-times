@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de times aleatórios</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Time Aleatório </h1>
+        <div class="inputs">
+        <div class="inputJogador">
+        <label id="labelJogadores" for="jogadores">Digite os nomes dos jogadores (separados por vírgula):</label>
+        <textarea id="jogadores" rows="10" cols="30" placeholder="Insira os nomes aqui..."></textarea>
+        </div>
+        <div class="inputTime">
+        <label for="numTimes" id="labelTimes">Número de times:</label>
+        <input type="text" id="numTimes" min="1" value="2"><br>
+        </div>        
+        </div>
+        <button id="gerar" onclick="gerar()">Gerar times</button>
+        <h2>Times Gerados:</h2>
+        <div id="resultados"></div>
+    </div>    
+</body>
+</html>
